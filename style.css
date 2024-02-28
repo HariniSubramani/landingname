@@ -1,0 +1,174 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(209,178,212,1) 29%, rgba(195,180,217,1) 64%, rgba(148,187,233,1) 100%);
+}
+
+*{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 738px;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgb(66, 66, 66);
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 180px;
+}
+.links{
+    margin-left: 400px;
+    display: flex;
+    gap: 40px;
+}
+.home{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+    cursor: pointer;
+
+}
+.home:hover{
+   
+     border-bottom: 1px solid black;
+}
+.txt{
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card{
+    margin-left: 40px;
+}
+.part2{
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 50%;
+    margin-left: 250px ;
+    margin-top: 150px;
+
+}
+.right{
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.con{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 3PX;
+}
+.con1{
+    font-size: 40px;
+    letter-spacing: 5PX;
+    font-weight: 100;
+}
+.con2{
+    letter-spacing: 5PX;
+    font-size: 44px;
+    font-weight: 900;
+}
+.para{
+    margin-top: 10px;
+
+}
+.btn{
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 40px;
+    padding: 10px 18px;
+    font-size: 18px;
+    letter-spacing: 3PX;
+    color: skyblue;
+    font-weight: 900;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: black; 
+}
+.icon{
+    margin-top: 120px;
+  display: flex;
+  gap: 20px;
+}
+.insta{
+color: white;
+cursor: pointer;
+}
+.insta:hover{
+    color: black;
+}
+.icon-menu
+{
+    margin-left: 400px;
+    font-size: 30px;
+    font-weight: bolder;
+    display: none;
+}
+/* responsive*/
+
+
+
+
+@media only screen and (max-width: 1070px)
+{
+    .links{
+         
+        display: none;
+
+    }
+    .icon-menu
+    {
+        display: inline-block;
+    }
+    .drop-down
+{
+    position: absolute;
+    top: 80px;
+    left: 650px;
+
+    background-color: rgba(0, 0, 0, 0.286);
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 12px;
+}
+.part2{
+    width: 50%;
+}
+.con{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 3PX;
+}
+.con1{
+    font-size: 36px;
+    letter-spacing: 5PX;
+    font-weight: 100;
+}
+.con2{
+    letter-spacing: 5PX;
+    font-size: 38px;
+    font-weight: 900;
+}
+}
+
+.d-none
+{
+    display: none;
+}
